@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Pinyon Script";
+    src: url("fonts/PinyonScript-Regular.ttf");
+}
+
+html, body{
+    height: 100%;
+    background-color: rgb(252, 237, 242);
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(252, 237, 242);
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.creative{
+    margin-top: 150px;
+    font-family: "Pinyon Script";
+    font-size: 950%;
+    margin-right: 100px;
+    
+}
+
+.portfolio{
+    font-family: "Pinyon Script";
+    font-size: 900%;
+    margin-top: -50px;
+    margin-left: 100px;
+}
+
+.profile{
+    width: 50%;
+    border-radius: 0%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
